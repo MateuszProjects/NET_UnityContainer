@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainer_NET", "UnityContainer_NET\UnityContainer_NET.csproj", "{74D9A395-672B-4AEB-A67F-D8A840D2061F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainer_Class", "UnityContainer_Test_Class\UnityContainer_Class.csproj", "{051F69CD-67A9-4E44-A5BA-5261121E1D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityContainer_Console_App", "UnityContainer_Console_App\UnityContainer_Console_App.csproj", "{A394AC0E-6CBE-4226-AE72-A31A20A958C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74D9A395-672B-4AEB-A67F-D8A840D2061F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74D9A395-672B-4AEB-A67F-D8A840D2061F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74D9A395-672B-4AEB-A67F-D8A840D2061F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74D9A395-672B-4AEB-A67F-D8A840D2061F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051F69CD-67A9-4E44-A5BA-5261121E1D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051F69CD-67A9-4E44-A5BA-5261121E1D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051F69CD-67A9-4E44-A5BA-5261121E1D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051F69CD-67A9-4E44-A5BA-5261121E1D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A394AC0E-6CBE-4226-AE72-A31A20A958C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A394AC0E-6CBE-4226-AE72-A31A20A958C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A394AC0E-6CBE-4226-AE72-A31A20A958C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A394AC0E-6CBE-4226-AE72-A31A20A958C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
