@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Practices.Unity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace UnityContainer_ConsoleApp
     {
         static void Main(string[] args)
         {
-            
+            var container = new UnityContainer();
         }
     }
 }
