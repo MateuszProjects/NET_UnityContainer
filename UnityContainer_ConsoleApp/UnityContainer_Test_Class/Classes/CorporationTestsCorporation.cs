@@ -11,10 +11,23 @@ namespace UnityContainer_ConsoleApp.Classes.Tests
     [TestClass]
     public class CorporationTestsCorporation
     {
+        [TestInitialize]
+        public void init()
+        {
+
+        }
+
+
         [TestMethod]
         public void CorporationTest()
         {
             Assert.Fail();
+        }
+
+        [TestCleanup]
+        public void clear()
+        {
+
         }
     }
 }
