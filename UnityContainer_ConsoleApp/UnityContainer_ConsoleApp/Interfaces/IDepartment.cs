@@ -8,6 +8,7 @@ namespace UnityContainer_ConsoleApp.Interfaces
 {
     public interface IDepartment
     {
-        int NumberofEmployeey { get; set; }
+        int numberEmplyee { get; set; }
+        int NumberofEmployeey(int number);
     }
 }

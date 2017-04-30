@@ -23,6 +23,7 @@ namespace UnityContainer_ConsoleApp.Classes
         public string NameCorporation(string name, int number)
         {
             Console.WriteLine("Corporation Name: " + name);
+            _iDepartament.NumberofEmployeey(number);
             return name;
         }
     }

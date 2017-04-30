@@ -28,11 +28,22 @@ namespace UnityContainer_ConsoleApp.Classes.Tests
         [TestMethod]
         public void NameCorporation_Test()
         {
-            var excepted = "Microsoft";
+            var expect = "Microsoft";
             
             var result = corporation.NameCorporation("Microsoft", 10);
 
-            Assert.AreEqual(excepted, result);
+            Assert.AreEqual(expect, result);
+        }
+
+        [TestMethod]
+        public void NameCorporation_FailTest()
+        {
+            var expect = "Test";
+
+            var result = corporation.NameCorporation("Microsoft", 10);
+
+            Assert.AreNotEqual(expect, result);
+
         }
 
        
