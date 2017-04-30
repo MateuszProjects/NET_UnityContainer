@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace UnityContainer_ConsoleApp.Interfaces
 {
-    interface ICorporation
+   public interface ICorporation
     {
+        
+
+        void PrintString(string name);
     }
 }
