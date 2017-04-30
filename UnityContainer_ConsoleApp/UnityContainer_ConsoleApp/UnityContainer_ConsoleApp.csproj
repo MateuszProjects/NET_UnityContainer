@@ -55,7 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Corporation.cs" />
+    <Compile Include="Classes\Department.cs" />
     <Compile Include="Interfaces\ICorporation.cs" />
+    <Compile Include="Interfaces\IDepartment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

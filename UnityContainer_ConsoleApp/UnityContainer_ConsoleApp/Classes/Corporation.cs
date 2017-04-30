@@ -9,17 +9,21 @@ namespace UnityContainer_ConsoleApp.Classes
 {
     public class Corporation : Interfaces.ICorporation
     {
-        public ICorporation _ICorporation;
 
+        private IDepartment _iDepartament;
 
-        public Corporation()
+        public string Name { get;  set; }
+
+        public Corporation(IDepartment departament)
         {
-         
+            _iDepartament = departament;
         }
 
-        public void PrintString(string name)
+
+        public string NameCorporation(string name, int number)
         {
-            Console.WriteLine(name);
+            Console.WriteLine("Corporation Name: " + name);
+            return name;
         }
     }
 }

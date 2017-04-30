@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace UnityContainer_ConsoleApp.Interfaces
 {
-   public interface ICorporation
+    public interface IDepartment
     {
-        string NameCorporation(string name, int nubmer);
-
-
+        int NumberofEmployeey { get; set; }
     }
 }

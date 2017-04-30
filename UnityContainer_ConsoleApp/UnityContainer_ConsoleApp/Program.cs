@@ -16,9 +16,13 @@ namespace UnityContainer_ConsoleApp
             var container = new UnityContainer();
 
             container.RegisterType<UnityContainer_ConsoleApp.Interfaces.ICorporation, Corporation>();
+            container.RegisterType<UnityContainer_ConsoleApp.Interfaces.IDepartment, Department>();
 
             var generator = container.Resolve<ICorporation>();
-            generator.PrintString("Jan");
+
+            generator.NameCorporation("Microsoft", 10);
+
+
             Console.ReadKey();
         }
     }
