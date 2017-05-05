@@ -19,7 +19,7 @@ namespace UnityContainer_ConsoleApp.Classes.Tests
         [TestInitialize]
         public void init()
         {
-            department = new Department();
+            // department = new Department();
             corporation = new Corporation(department);
         }
 

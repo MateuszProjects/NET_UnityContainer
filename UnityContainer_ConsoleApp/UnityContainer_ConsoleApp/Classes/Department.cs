@@ -11,11 +11,19 @@ namespace UnityContainer_ConsoleApp.Classes
     {
         private ICorporation _iCorporation;
 
+        public List<IEmployee> _iemployee;
         public int numberEmplyee { get; set; }
 
-        public Department()
+        public Department(List<IEmployee> employee) 
         {
-     
+            _iemployee = employee;
+        }
+
+        public int gerSizeListEmployee()
+        {
+            int dane = _iemployee.Count;
+            Console.Out.WriteLine("dane" + dane);
+            return dane;
         }
 
         public int NumberofEmployeey(int number)
